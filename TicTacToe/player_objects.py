@@ -10,7 +10,7 @@ from ipywidgets import widgets
 from IPython.display import display, clear_output
 
 class T3Player():
-    def __init__(self,dictname = "bayes100k_b.json"):
+    def __init__(self,dictname = 'TicTacToe/jsonstorage/bayes100k_b.json'):
         self.move_dict = self.read_dict(dictname)
     def write_dict(self,filename,mdict):
         """

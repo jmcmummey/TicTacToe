@@ -30,7 +30,8 @@ plt.gca().axhline(1.5,color='grey')
 plt.gca().axhline(2.5,color='grey')
 plt.gca().axvline(1.5,color='grey')
 
-a = T3Player('bayes100k_b.json')
+
+a = T3Player('TicTacToe/jsonstorage/bayes100k_b.json')
 board = "EEEEEEEEE"
 
 plt.gca().axvline(2.5,color='grey')
